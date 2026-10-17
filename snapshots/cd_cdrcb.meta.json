@@ -1,12 +1,10 @@
 {
  "id": "cd_cdrcb",
  "urls": [
-  "https://www.cdrcb.com/pin/dt.php",
-  "https://www.cdrcb.com/pin/dt.php",
   "https://www.cdrcb.com/pin/dt.php"
  ],
  "type": "official_api",
- "fetched_at": "2026-10-17T13:49:59Z",
- "hash": "d479b4eebe99c62461c18f54a43182697bfd09f9a31979379a2baf280b1ee67b",
+ "fetched_at": "2026-10-17T13:59:56Z",
+ "hash": "a95eec5dffd4506f7c6e89c0e51207020c135563a283826f57a403fe48abd3a6",
  "errors": []
 }

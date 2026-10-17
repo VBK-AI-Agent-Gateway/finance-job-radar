@@ -12,7 +12,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-09-17'
   deadline: null
   status: declared
   evidence:
@@ -33,7 +33,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-04-17'
   deadline: null
   status: declared
   evidence:
@@ -43,8 +43,8 @@ postings:
     excerpt: 成都银行关于延长总行信息技术部人工智能专家等岗位招聘报名时间的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -54,7 +54,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-03-19'
   deadline: null
   status: declared
   evidence:
@@ -64,8 +64,8 @@ postings:
     excerpt: 成都银行关于2026年市场化选聘管理人员的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -75,7 +75,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-03-17'
   deadline: null
   status: declared
   evidence:
@@ -85,8 +85,8 @@ postings:
     excerpt: 成都银行关于2026年招聘总行信息技术部人工智能专家等岗位的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -96,7 +96,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-01-15'
   deadline: null
   status: declared
   evidence:
@@ -106,8 +106,8 @@ postings:
     excerpt: 成都银行关于2026年招聘总行网络金融部个人电子银行产品设计岗等岗位的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -117,7 +117,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-12-18'
   deadline: null
   status: declared
   evidence:
@@ -127,8 +127,8 @@ postings:
     excerpt: 成都银行关于2025年招聘总行专职信用审批人等岗位的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -138,7 +138,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-11-13'
   deadline: null
   status: declared
   evidence:
@@ -148,8 +148,8 @@ postings:
     excerpt: 成都银行2026年秋季校园招聘（第二批次）公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -159,7 +159,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-09-22'
   deadline: null
   status: declared
   evidence:
@@ -169,8 +169,8 @@ postings:
     excerpt: 成都银行2026年秋季校园招聘（第一批次）公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -180,7 +180,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-08-20'
   deadline: null
   status: declared
   evidence:
@@ -190,8 +190,8 @@ postings:
     excerpt: 成都银行关于2025年招聘分支行柜面业务岗等岗位的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -201,7 +201,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-07-21'
   deadline: null
   status: declared
   evidence:
@@ -211,8 +211,8 @@ postings:
     excerpt: 成都银行关于2025年招聘总行员工的公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -222,7 +222,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-04-15'
   deadline: null
   status: declared
   evidence:
@@ -232,8 +232,8 @@ postings:
     excerpt: 成都银行股份有限公司2025总行金融科技岗（第三批次）招聘公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -243,7 +243,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-03-27'
   deadline: null
   status: declared
   evidence:
@@ -253,8 +253,8 @@ postings:
     excerpt: 成都银行2025春季校园招聘
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -264,7 +264,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-03-16'
   deadline: null
   status: declared
   evidence:
@@ -274,8 +274,8 @@ postings:
     excerpt: 成都银行2025年总行高层次人才社会招聘公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'
@@ -285,7 +285,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2025-02-20'
   deadline: null
   status: declared
   evidence:
@@ -295,8 +295,8 @@ postings:
     excerpt: 成都银行总行金融科技岗、分支行柜面业务岗招聘公告
   last_verified: '2026-10-17'
   entity: bank
-  in_scope: true
-  scope_reason: 命中[金融]
+  in_scope: false
+  scope_reason: 过旧(>180天)
   domain:
   - 金融
   first_seen: '2026-10-17'

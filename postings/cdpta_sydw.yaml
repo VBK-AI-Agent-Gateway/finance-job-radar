@@ -6,24 +6,24 @@ region: 成都
 category: null
 last_fetched: '2026-10-17'
 postings:
-- id: cdpta_sydw:487684d7566abe7775a16768cfd1feb5
-  title: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍消防员招录面试工作的公告
-  url: https://cdpta.cdrsigc.com/netpage/noticecontent.jsp?typeid=60&amp;contentid=/frt/frtuploadfile/uploadfile/bulletin/2026/487684d7566abe7775a16768cfd1feb5.html
+- id: cdpta_sydw:bb8b9c9b9acbe80991cf4a4dc9480d81
+  title: 中共成都市委社会工作部关于2026年社会化选聘新兴领域党建工作专员 ...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/bb8b9c9b9acbe80991cf4a4dc9480d81.html
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-16'
   deadline: null
   status: declared
   evidence:
   - kind: official_page
-    url: https://cdpta.cdrsigc.com/netpage/noticecontent.jsp?typeid=60&amp;contentid=/frt/frtuploadfile/uploadfile/bulletin/2026/487684d7566abe7775a16768cfd1feb5.html
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/bb8b9c9b9acbe80991cf4a4dc9480d81.html
     at: '2026-10-17'
-    excerpt: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍消防员招录面试工作的公告
+    excerpt: 中共成都市委社会工作部关于2026年社会化选聘新兴领域党建工作专员 ...
   last_verified: '2026-10-17'
   entity: institution
-  in_scope: false
-  scope_reason: 非岗位(过程/结果公示)
+  in_scope: true
+  scope_reason: 命中[institution]
   domain: []
   first_seen: '2026-10-17'
 - id: cdpta_sydw:content_fb94b9f43fbc415cbdcd5dc47b065919.shtml
@@ -32,7 +32,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-16'
   deadline: null
   status: declared
   evidence:
@@ -52,7 +52,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-16'
   deadline: null
   status: declared
   evidence:
@@ -72,7 +72,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-15'
   deadline: null
   status: declared
   evidence:
@@ -92,7 +92,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-15'
   deadline: null
   status: declared
   evidence:
@@ -112,7 +112,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-14'
   deadline: null
   status: declared
   evidence:
@@ -132,7 +132,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-12'
   deadline: null
   status: declared
   evidence:
@@ -152,7 +152,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-10'
   deadline: null
   status: declared
   evidence:
@@ -172,7 +172,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-10'
   deadline: null
   status: declared
   evidence:
@@ -192,7 +192,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-10-08'
   deadline: null
   status: declared
   evidence:
@@ -206,13 +206,53 @@ postings:
   scope_reason: 命中[institution]
   domain: []
   first_seen: '2026-10-17'
+- id: cdpta_sydw:d1d82aa483f7dc70efa8f4b08d591710
+  title: 中共成都市委组织部关于2026年度成都市公开选调公务员综合成绩及排名...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/d1d82aa483f7dc70efa8f4b08d591710.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-09-11'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/d1d82aa483f7dc70efa8f4b08d591710.html
+    at: '2026-10-17'
+    excerpt: 中共成都市委组织部关于2026年度成都市公开选调公务员综合成绩及排名...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:5eec8a9286a3b9a5f3df38386315b81d
+  title: 中共成都市委组织部关于2026年度成都市公开遴选公务员考试综合成绩及...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/5eec8a9286a3b9a5f3df38386315b81d.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-09-11'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/5eec8a9286a3b9a5f3df38386315b81d.html
+    at: '2026-10-17'
+    excerpt: 中共成都市委组织部关于2026年度成都市公开遴选公务员考试综合成绩及...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
 - id: cdpta_sydw:2089275061788741634
   title: 成都市双流区教育系统2026年第三季度公开招聘第二批编外工作人员公告
   url: https://slrc114.cn/announcement/2089275061788741634
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-08-18'
   deadline: null
   status: declared
   evidence:
@@ -226,13 +266,73 @@ postings:
   scope_reason: 命中[institution]
   domain: []
   first_seen: '2026-10-17'
+- id: cdpta_sydw:8e957ff4bce4596c3ef8d8821e7101a9
+  title: 中共成都市委组织部关于2026年度成都市公开遴选公务员笔试成绩、职位...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/8e957ff4bce4596c3ef8d8821e7101a9.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-08-17'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/8e957ff4bce4596c3ef8d8821e7101a9.html
+    at: '2026-10-17'
+    excerpt: 中共成都市委组织部关于2026年度成都市公开遴选公务员笔试成绩、职位...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:77c86068766746b3ce449b9adf60dfcb
+  title: 中共成都市委组织部关于2026年度成都市公开选调公务员笔试合格分数线...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/77c86068766746b3ce449b9adf60dfcb.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-08-17'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/77c86068766746b3ce449b9adf60dfcb.html
+    at: '2026-10-17'
+    excerpt: 中共成都市委组织部关于2026年度成都市公开选调公务员笔试合格分数线...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:b40b5b5ac25f6dd72d1ee73a2a7ffe0e
+  title: 中共成都市委组织部关于成都市2026年度选调优秀大学毕业生到基层工作...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/b40b5b5ac25f6dd72d1ee73a2a7ffe0e.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-08-14'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/b40b5b5ac25f6dd72d1ee73a2a7ffe0e.html
+    at: '2026-10-17'
+    excerpt: 中共成都市委组织部关于成都市2026年度选调优秀大学毕业生到基层工作...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'
 - id: cdpta_sydw:content_bfd90c76b97840c6a5b73ebf517d6746.shtml
   title: 2026年双流区面向社会公开招聘政府雇员拟聘公示
   url: https://www.shuangliu.gov.cn/slqrmzf/c172522/2026-07/31/content_bfd90c76b97840c6a5b73ebf517d6746.shtml
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-07-31'
   deadline: null
   status: declared
   evidence:
@@ -252,7 +352,7 @@ postings:
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-07-28'
   deadline: null
   status: declared
   evidence:
@@ -266,13 +366,73 @@ postings:
   scope_reason: 命中[institution]
   domain: []
   first_seen: '2026-10-17'
+- id: cdpta_sydw:6b3e370654f594f1886802090458b68c
+  title: 2026年度成都市公开选调公务员职位统计（截至7月16日17:00，此为最后一次公布）
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/6b3e370654f594f1886802090458b68c.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-16'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/6b3e370654f594f1886802090458b68c.html
+    at: '2026-10-17'
+    excerpt: 2026年度成都市公开选调公务员职位统计（截至7月16日17:00，此为最后一次公布）
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:7091dc5bfe3cc0ab236cf879a010f79d
+  title: 2026年度成都市市直机关公开遴选公务员职位统计（截至7月16日17:00，此为最后一次公布）
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/7091dc5bfe3cc0ab236cf879a010f79d.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-16'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/7091dc5bfe3cc0ab236cf879a010f79d.html
+    at: '2026-10-17'
+    excerpt: 2026年度成都市市直机关公开遴选公务员职位统计（截至7月16日17:00，此为最后一次公布）
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:0a6a8e2cc76a8668612f99c3d3c614d7
+  title: 2026年上半年成都市事业单位公开选调工作人员参考人员平均分
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/0a6a8e2cc76a8668612f99c3d3c614d7.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-16'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/0a6a8e2cc76a8668612f99c3d3c614d7.html
+    at: '2026-10-17'
+    excerpt: 2026年上半年成都市事业单位公开选调工作人员参考人员平均分
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
 - id: cdpta_sydw:glH__EC8_I4B5R30u2f3hA
   title: 成都市双流区教育系统2026年第三季度公开招聘编外工作人员公告
   url: https://mp.weixin.qq.com/s/glH__EC8_I4B5R30u2f3hA
   org: null
   category: null
   region: 成都
-  publish_date: null
+  publish_date: '2026-07-15'
   deadline: null
   status: declared
   evidence:
@@ -284,5 +444,166 @@ postings:
   entity: institution
   in_scope: true
   scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:027123ec2db87507459236c162d73495
+  title: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/027123ec2db87507459236c162d73495.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-14'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/027123ec2db87507459236c162d73495.html
+    at: '2026-10-17'
+    excerpt: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[后勤]
+  domain:
+  - 后勤
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:a240a1f0bb30d85bba7fff9075e1d92f
+  title: 成都市消防员招录工作办公室关于开展2026年度消防员招录体能测试、岗...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/a240a1f0bb30d85bba7fff9075e1d92f.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-07'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/a240a1f0bb30d85bba7fff9075e1d92f.html
+    at: '2026-10-17'
+    excerpt: 成都市消防员招录工作办公室关于开展2026年度消防员招录体能测试、岗...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:8519da7b6647540d6be8f903843a75a3
+  title: 成都市关于开展2026年度国家综合性消防救援队伍消防员招录现场资格复...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/8519da7b6647540d6be8f903843a75a3.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-02'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/8519da7b6647540d6be8f903843a75a3.html
+    at: '2026-10-17'
+    excerpt: 成都市关于开展2026年度国家综合性消防救援队伍消防员招录现场资格复...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:6fd534e4ccd408348624437444a645be
+  title: 2026年成都市事业单位公开考试招聘工作人员（第三批）各类参考人员平均分
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/6fd534e4ccd408348624437444a645be.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-06-17'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/6fd534e4ccd408348624437444a645be.html
+    at: '2026-10-17'
+    excerpt: 2026年成都市事业单位公开考试招聘工作人员（第三批）各类参考人员平均分
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:b18301b67d0b9cacc791fffdcc1b1f73
+  title: 2026年成都市事业单位面向国家综合性消防救援队伍公开选调工作人员参考人员平均分
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/b18301b67d0b9cacc791fffdcc1b1f73.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-06-10'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/b18301b67d0b9cacc791fffdcc1b1f73.html
+    at: '2026-10-17'
+    excerpt: 2026年成都市事业单位面向国家综合性消防救援队伍公开选调工作人员参考人员平均分
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:cc4f47956279506b5cc6aaa00dbcb6b7
+  title: 2026年上半年成都市事业单位公开选调工作人员报名人数统计(截至2026年6月2日 16:30,此...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/cc4f47956279506b5cc6aaa00dbcb6b7.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-06-02'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/cc4f47956279506b5cc6aaa00dbcb6b7.html
+    at: '2026-10-17'
+    excerpt: 2026年上半年成都市事业单位公开选调工作人员报名人数统计(截至2026年6月2日 16:30,此...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:61ee3d6c0e7270d6edfdd80766d0e02b
+  title: 成都市2026年上半年教师公招和成都市2026年上半年...
+  url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/61ee3d6c0e7270d6edfdd80766d0e02b.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-04-27'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/61ee3d6c0e7270d6edfdd80766d0e02b.html
+    at: '2026-10-17'
+    excerpt: 成都市2026年上半年教师公招和成都市2026年上半年...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:487684d7566abe7775a16768cfd1feb5
+  title: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍消防员招录面试工作的公告
+  url: https://cdpta.cdrsigc.com/netpage/noticecontent.jsp?typeid=60&amp;contentid=/frt/frtuploadfile/uploadfile/bulletin/2026/487684d7566abe7775a16768cfd1feb5.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/netpage/noticecontent.jsp?typeid=60&amp;contentid=/frt/frtuploadfile/uploadfile/bulletin/2026/487684d7566abe7775a16768cfd1feb5.html
+    at: '2026-10-17'
+    excerpt: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍消防员招录面试工作的公告
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
   domain: []
   first_seen: '2026-10-17'

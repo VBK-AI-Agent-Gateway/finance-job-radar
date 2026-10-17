@@ -5,7 +5,7 @@
 - gov_list      : 政府/事业单位「公开招聘」列表页(详情页 URL 含日期目录)
 - link_directory: 协会聚合页(站内公告 + 外部入口,供发现员)
 """
-import hashlib, html as html_mod, json, pathlib, re, sys, time
+import datetime, hashlib, html as html_mod, json, pathlib, re, sys, time
 from urllib.parse import urljoin
 import yaml
 
@@ -33,8 +33,24 @@ def clean(s):
 
 
 def anchors(html):
-    return [(h, clean(t)) for h, t in
-            re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, flags=re.S | re.I)]
+    return [(m.group(1), clean(m.group(2)), m.start(), m.end()) for m in
+            re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, flags=re.S | re.I)]
+
+
+def date_in_block(html, start, end):
+    """日期常挂在标题同一条目(<li>)内、<a> 前后的 <span> 里。优先在当前 <li> 块内找,
+    否则退回锚点后/前的小窗口。"""
+    ls = html.rfind("<li", 0, start)
+    le = html.find("</li>", end)
+    if ls != -1 and le != -1 and 0 < le - ls < 2000:
+        d = date_from_text(html[ls:le])
+        if d:
+            return d
+    for seg in (html[end:end + 200], html[max(0, start - 200):start]):
+        d = date_from_text(seg)
+        if d:
+            return d
+    return None
 
 
 def _iso(y, mo, d):
@@ -58,9 +74,12 @@ def date_from_href(href):
 
 
 def date_from_text(s):
-    m = re.search(r"(\d{4})\s*[.\-/年]\s*(\d{1,2})\s*[.\-/月]\s*(\d{1,2})", s)
-    if m:
-        return _iso(m.group(1), m.group(2), m.group(3))
+    s = s or ""
+    for m in re.finditer(r"(\d{4}|\d{2})\s*[.\-/年]\s*(\d{1,2})\s*[.\-/月]\s*(\d{1,2})", s):
+        d = _iso(int(m.group(1)) if len(m.group(1)) == 4 else 2000 + int(m.group(1)),
+                 m.group(2), m.group(3))
+        if d:
+            return d
     m = re.search(r"\[\s*(\d{1,2})[-/.]\s*(\d{1,2})\s*\]\s*$", s)
     if m:
         return _iso(time.strftime("%Y"), m.group(1), m.group(2))
@@ -107,7 +126,8 @@ def anchors_list(src, html):
     """通用列表页:标题命中 title_kw、有可抓 URL 的条目。"""
     out, seen = [], set()
     kw = _title_kw(src)
-    for href, raw in anchors(html):
+    for href, raw, astart, aend in anchors(html):
+        href = real_href(href)
         if href.startswith(("javascript:", "#", "mailto:")) or href in (".", "./", "../", ""):
             continue
         if not any(k in raw for k in kw):
@@ -125,7 +145,7 @@ def anchors_list(src, html):
         out.append({
             "id": pid, "title": title, "url": url, "org": None,
             "category": src.get("category"), "region": src.get("region"),
-            "publish_date": date_from_text(raw) or date_from_href(href),
+            "publish_date": date_from_text(raw) or date_in_block(html, astart, aend) or date_from_href(href),
             "deadline": None, "status": "declared",
             "evidence": _evidence(src, url, title), "last_verified": _today(),
         })
@@ -136,7 +156,7 @@ def gov_list(src, html):
     """政府/事业单位公开招聘列表页:详情页 URL 含日期目录。"""
     out, seen = [], set()
     kw = _title_kw(src)
-    for href, title in anchors(html):
+    for href, title, astart, aend in anchors(html):
         if len(title) < 8 or not any(k in title for k in kw):
             continue
         if href.startswith(("javascript:", "#")) or href in (".", "./"):
@@ -151,7 +171,7 @@ def gov_list(src, html):
         out.append({
             "id": pid, "title": title, "url": url, "org": None,
             "category": src.get("category"), "region": src.get("region"),
-            "publish_date": date_from_href(href), "deadline": None,
+            "publish_date": date_in_block(html, astart, aend) or date_from_href(href), "deadline": None,
             "status": "declared", "evidence": _evidence(src, url, title),
             "last_verified": _today(),
         })
@@ -165,7 +185,7 @@ def link_directory(src, html):
     """协会聚合页:站内公告(返回 postings) + 外部入口(返回 portals)。"""
     postings, portals, seen = [], [], set()
     base = _base(src)
-    for href, title in anchors(html):
+    for href, title, astart, aend in anchors(html):
         if href.startswith(("javascript:", "#")) or href in (".", "./", "../"):
             continue
         url = urljoin(base, href)
@@ -219,6 +239,18 @@ def json_api(src, text):
     return out
 
 
+GOX_RE = re.compile(r"'(/[^']+\.html?)'")
+
+
+def real_href(href):
+    """把 javascript:goxxinfo(...) 里内嵌的真实路径还原成可抓 URL(人事网),否则原样返回。"""
+    if href.startswith("javascript:goxxinfo"):
+        m = GOX_RE.search(href)
+        if m:
+            return m.group(1)
+    return href
+
+
 EXTRACTORS = {"anchors_list": anchors_list, "gov_list": gov_list,
               "link_directory": link_directory, "json_api": json_api}
 
@@ -251,6 +283,21 @@ def qualify(posting, src, filters):
         return False, "非大成都", entity, tags
     if not domain_ok:
         return False, "国企未命中金融/后勤", entity, tags
+    rec = filters.get("recency") or {}
+    max_age, pd_ = rec.get("max_age_days"), posting.get("publish_date")
+    if max_age and pd_:
+        try:
+            if (datetime.date.today() - datetime.date.fromisoformat(pd_)).days > int(max_age):
+                return False, f"过旧(>{max_age}天)", entity, tags
+        except ValueError:
+            pass
+    dl = posting.get("deadline")
+    if rec.get("drop_expired", True) and dl:
+        try:
+            if datetime.date.fromisoformat(dl) < datetime.date.today():
+                return False, "已过期(超过截止日)", entity, tags
+        except ValueError:
+            pass
     return True, f"命中[{'/'.join(tags) if tags else entity}]", entity, tags
 
 

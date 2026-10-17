@@ -37,7 +37,7 @@ sources:
   method: POST
   body: {tp: 0, hj: 0, num: 20}              # hj=0 -> 招聘公告(1=资格审核 2=笔试成绩 3=面试成绩 4=拟聘名单)
   page_param: page
-  pages: 3
+  pages: 1                                   # 只取最新一页(在招)
   json_path: zp
   detail_tmpl: https://www.cdrcb.com/pin/zpdetail.htm?id={id}
   entity: bank
@@ -49,9 +49,7 @@ sources:
 - id: cd_boc
   name: 中国银行-招聘公告(全国,只看四川/成都)
   urls:
-    - https://www.boc.cn/aboutboc/bi4/
-    - https://www.boc.cn/aboutboc/bi4/index_1.html
-    - https://www.boc.cn/aboutboc/bi4/index_2.html
+    - https://www.boc.cn/aboutboc/bi4/       # 只取最新一页(在招)
   type: official_page
   parser: anchors_list
   entity: bank

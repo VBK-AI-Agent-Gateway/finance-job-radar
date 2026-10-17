@@ -1,12 +1,10 @@
 {
  "id": "cd_boc",
  "urls": [
-  "https://www.boc.cn/aboutboc/bi4/",
-  "https://www.boc.cn/aboutboc/bi4/index_1.html",
-  "https://www.boc.cn/aboutboc/bi4/index_2.html"
+  "https://www.boc.cn/aboutboc/bi4/"
  ],
  "type": "official_page",
- "fetched_at": "2026-10-17T13:50:06Z",
- "hash": "62f2a1cfda4d3831c09e540df14ecbc8a34b7a925b06909368860686434319a7",
+ "fetched_at": "2026-10-17T13:59:57Z",
+ "hash": "780458eecb969a139270952bda0da8b239009b4b1d7c1abdd83ada95a0b2f94b",
  "errors": []
 }
