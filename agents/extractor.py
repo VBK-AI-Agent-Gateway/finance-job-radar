@@ -187,7 +187,40 @@ def link_directory(src, html):
     return postings, portals
 
 
-EXTRACTORS = {"anchors_list": anchors_list, "gov_list": gov_list, "link_directory": link_directory}
+def json_api(src, text):
+    """JSON 接口列表:按 json_path 取数组,映射字段 id/title/url/date(用于 SPA 站点的后端接口)。"""
+    try:
+        data = json.loads(text)
+    except Exception:
+        return []
+    rows = data if isinstance(data, list) else (data.get(src.get("json_path") or "zp") or [])
+    tmpl = src.get("detail_tmpl") or ""
+    out, seen = [], set()
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        title = clean(row.get("title") or row.get("name") or "")
+        did = row.get("d") if row.get("d") is not None else row.get("id")
+        if not title or did is None:
+            continue
+        url = urljoin(_base(src), tmpl.format(id=did)) if tmpl else _base(src)
+        pid = f"{src['id']}:{did}"
+        if pid in seen:
+            continue
+        seen.add(pid)
+        raw = str(row.get("time") or row.get("date") or "")
+        out.append({
+            "id": pid, "title": title, "url": url, "org": row.get("org"),
+            "category": src.get("category"), "region": src.get("region"),
+            "publish_date": raw[:10] if re.match(r"\d{4}-\d{2}-\d{2}", raw) else None,
+            "deadline": None, "status": "declared",
+            "evidence": _evidence(src, url, title), "last_verified": _today(),
+        })
+    return out
+
+
+EXTRACTORS = {"anchors_list": anchors_list, "gov_list": gov_list,
+              "link_directory": link_directory, "json_api": json_api}
 
 
 # ── 范围过滤(口径见 config/filters.yaml) ──────────────
@@ -207,6 +240,7 @@ def qualify(posting, src, filters):
     text = f"{title} {posting.get('org') or ''}"
     if any(k in title for k in (filters.get("exclude_title") or [])):
         return False, "非岗位(过程/结果公示)", entity, []
+    region_kw = src.get("region_kw") or region_kw   # 源级覆盖(如全国性银行只看四川/成都分行)
     has_inc, has_exc = any(k in text for k in region_kw), any(k in text for k in region_ex)
     region_ok = has_inc or (src.get("default_region") in ("成都", "大成都") and not has_exc)
     tags = [t for t, kws in (("金融", dom.get("finance") or []), ("后勤", dom.get("logistics") or []))

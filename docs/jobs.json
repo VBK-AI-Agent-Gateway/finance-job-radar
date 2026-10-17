@@ -1,7 +1,17 @@
 {
- "generated": "2026-10-17T13:35:09Z",
- "count": 19,
+ "generated": "2026-10-17T13:50:50Z",
+ "count": 40,
  "sources": [
+  {
+   "source": "cd_boc",
+   "name": "中国银行-招聘公告(全国,只看四川/成都)",
+   "homepage": "https://www.boc.cn/aboutboc/bi4/",
+   "entity": "bank",
+   "region": "成都",
+   "category": null,
+   "last_fetched": "2026-10-17",
+   "count": 1
+  },
   {
    "source": "cd_bocd",
    "name": "成都银行-招聘公告",
@@ -11,6 +21,16 @@
    "category": null,
    "last_fetched": "2026-10-17",
    "count": 14
+  },
+  {
+   "source": "cd_cdrcb",
+   "name": "成都农商银行-员工招聘",
+   "homepage": "https://www.cdrcb.com/pin/dt.php",
+   "entity": "bank",
+   "region": "成都",
+   "category": null,
+   "last_fetched": "2026-10-17",
+   "count": 20
   },
   {
    "source": "cdpta_sydw",
@@ -34,6 +54,594 @@
   }
  ],
  "jobs": [
+  {
+   "id": "cd_cdrcb:267",
+   "title": "成都农商银行关于2027年校园招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=267",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-09-17",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=267",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2027年校园招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:264",
+   "title": "成都农商银行2026年“星·未来”实习生招聘公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=264",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-06-29",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=264",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行2026年“星·未来”实习生招聘公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:241",
+   "title": "成都农村商业银行股份有限公司市场化选聘中层管理人员的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=241",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-03-19",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=241",
+     "at": "2026-10-17",
+     "excerpt": "成都农村商业银行股份有限公司市场化选聘中层管理人员的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:240",
+   "title": "成都农村商业银行股份有限公司市场化选聘执行层人员的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=240",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-03-19",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=240",
+     "at": "2026-10-17",
+     "excerpt": "成都农村商业银行股份有限公司市场化选聘执行层人员的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:237",
+   "title": "成都农商银行关于2026年春季校园招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=237",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-03-17",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=237",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2026年春季校园招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:236",
+   "title": "成都农商银行关于软件开发岗（应用平台方向）社会招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=236",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-03-17",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=236",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于软件开发岗（应用平台方向）社会招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:224",
+   "title": "成都农商银行关于延长产业金融岗招聘时间的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=224",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-01-15",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=224",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于延长产业金融岗招聘时间的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:223",
+   "title": "成都农商银行关于延长软件开发岗（应用架构方向）招聘报名时间的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=223",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-01-15",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=223",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于延长软件开发岗（应用架构方向）招聘报名时间的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:222",
+   "title": "成都农商银行关于延长授信审查岗招聘报名时间的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=222",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2026-01-15",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=222",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于延长授信审查岗招聘报名时间的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:218",
+   "title": "成都农商银行关于2025年产业金融岗社会招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=218",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-12-18",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=218",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2025年产业金融岗社会招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:217",
+   "title": "成都农商银行关于2025年软件开发岗（应用架构方向）社会招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=217",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-12-18",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=217",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2025年软件开发岗（应用架构方向）社会招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:216",
+   "title": "成都农商银行关于2025年授信审查岗社会招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=216",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-12-18",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=216",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2025年授信审查岗社会招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:206",
+   "title": "成都农商银行关于2025年下半年综合柜员岗社会招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=206",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-10-28",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=206",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2025年下半年综合柜员岗社会招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:205",
+   "title": "成都农商银行关于2025年下半年软件开发岗（Java应用架构）、产品经理岗社会招聘的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=205",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-10-28",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=205",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2025年下半年软件开发岗（Java应用架构）、产品经理岗社会招聘的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:200",
+   "title": "成都农商银行2026年校园招聘公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=200",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-09-22",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=200",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行2026年校园招聘公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:191",
+   "title": "成都农商银行2025年“星·未来” 暑期实习生招聘公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=191",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-06-12",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=191",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行2025年“星·未来” 暑期实习生招聘公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:182",
+   "title": "成都农商银行关于2025年招聘综合柜员岗的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=182",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-04-15",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=182",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行关于2025年招聘综合柜员岗的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:177",
+   "title": "成都农商银行2025年春季校园招聘公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=177",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-03-26",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=177",
+     "at": "2026-10-17",
+     "excerpt": "成都农商银行2025年春季校园招聘公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:176",
+   "title": "成都农村商业银行股份有限公司2025年上半年招聘专业技术岗位人员的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=176",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-02-20",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=176",
+     "at": "2026-10-17",
+     "excerpt": "成都农村商业银行股份有限公司2025年上半年招聘专业技术岗位人员的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_cdrcb:175",
+   "title": "成都农村商业银行股份有限公司市场化选聘中层管理人员以及专业序列人员的公告",
+   "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=175",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2025-02-20",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=175",
+     "at": "2026-10-17",
+     "excerpt": "成都农村商业银行股份有限公司市场化选聘中层管理人员以及专业序列人员的公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_cdrcb"
+  },
+  {
+   "id": "cd_boc:t20220930_21883157",
+   "title": "中国银行四川省分行2022年社会招聘公告",
+   "url": "https://www.boc.cn/aboutboc/bi4/202209/t20220930_21883157.html",
+   "org": null,
+   "category": null,
+   "region": "成都",
+   "publish_date": "2022-09-30",
+   "deadline": null,
+   "status": "declared",
+   "evidence": [
+    {
+     "kind": "official_page",
+     "url": "https://www.boc.cn/aboutboc/bi4/202209/t20220930_21883157.html",
+     "at": "2026-10-17",
+     "excerpt": "中国银行四川省分行2022年社会招聘公告"
+    }
+   ],
+   "last_verified": "2026-10-17",
+   "entity": "bank",
+   "in_scope": true,
+   "scope_reason": "命中[金融]",
+   "domain": [
+    "金融"
+   ],
+   "first_seen": "2026-10-17",
+   "source": "cd_boc"
+  },
   {
    "id": "sc_gzw_recruit:4PdDOvEt_VTvc9y-Ksao0Q",
    "title": "【社招】四川省国有资产经营投资管理有限责任公司总部综合办公室副主任以及所属企业主要负责人岗位公开选聘公告",

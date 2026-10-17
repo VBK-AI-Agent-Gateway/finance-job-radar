@@ -1,0 +1,659 @@
+source: cd_boc
+name: 中国银行-招聘公告(全国,只看四川/成都)
+homepage: https://www.boc.cn/aboutboc/bi4/
+entity: bank
+region: 成都
+category: null
+last_fetched: '2026-10-17'
+postings:
+- id: cd_boc:t20260903_25689311
+  title: 中国银行股份有限公司2027年全球校园招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-09-03'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2027年全球校园招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20260721_25680323
+  title: 中国银行消防安全专项社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202607/t20260721_25680323.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-07-21'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202607/t20260721_25680323.html
+    at: '2026-10-17'
+    excerpt: 中国银行消防安全专项社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20260511_25666277
+  title: 中国银行2026年高层次海外人才招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202605/t20260511_25666277.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-05-11'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202605/t20260511_25666277.html
+    at: '2026-10-17'
+    excerpt: 中国银行2026年高层次海外人才招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20260311_25654053
+  title: 中国银行股份有限公司2026年春季招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654053.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-03-11'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654053.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2026年春季招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20260311_25654054
+  title: 中国银行股份有限公司2026年实习生招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654054.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2026-03-11'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654054.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2026年实习生招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20250905_25484753
+  title: 中国银行股份有限公司2026年全球校园招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202509/t20250905_25484753.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2025-09-05'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202509/t20250905_25484753.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2026年全球校园招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20250702_25401883
+  title: 中国银行2025年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202507/t20250702_25401883.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2025-07-02'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202507/t20250702_25401883.html
+    at: '2026-10-17'
+    excerpt: 中国银行2025年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20250326_25304552
+  title: 中国银行2025年高层次海外人才招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202503/t20250326_25304552.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2025-03-26'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202503/t20250326_25304552.html
+    at: '2026-10-17'
+    excerpt: 中国银行2025年高层次海外人才招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20250303_25283198
+  title: 中国银行股份有限公司2025年春季招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283198.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2025-03-03'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283198.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2025年春季招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20250303_25283197
+  title: 中国银行股份有限公司2025年实习生招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283197.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2025-03-03'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283197.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2025年实习生招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20240920_25158734
+  title: 中国银行上海总部社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202409/t20240920_25158734.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2024-09-20'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202409/t20240920_25158734.html
+    at: '2026-10-17'
+    excerpt: 中国银行上海总部社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20240904_25147628
+  title: 中国银行股份有限公司2025年全球校园招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202409/t20240904_25147628.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2024-09-04'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202409/t20240904_25147628.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2025年全球校园招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20240816_25134190
+  title: 中国银行2024年高层次人才招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202408/t20240816_25134190.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2024-08-16'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202408/t20240816_25134190.html
+    at: '2026-10-17'
+    excerpt: 中国银行2024年高层次人才招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20240301_24662090
+  title: 中国银行股份有限公司2024年春季招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202403/t20240301_24662090.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2024-03-01'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202403/t20240301_24662090.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2024年春季招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20240301_24662089
+  title: 中国银行股份有限公司2024年实习生招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202403/t20240301_24662089.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2024-03-01'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202403/t20240301_24662089.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2024年实习生招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20240223_24617288
+  title: 中国银行2024年高层次海外人才招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202402/t20240223_24617288.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2024-02-23'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202402/t20240223_24617288.html
+    at: '2026-10-17'
+    excerpt: 中国银行2024年高层次海外人才招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230904_23689129
+  title: 中国银行股份有限公司2024年全球校园招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202309/t20230904_23689129.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-09-04'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202309/t20230904_23689129.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2024年全球校园招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230411_22869090
+  title: 中国银行软件中心2023年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202304/t20230411_22869090.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-04-11'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202304/t20230411_22869090.html
+    at: '2026-10-17'
+    excerpt: 中国银行软件中心2023年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230322_22762160
+  title: 中银金融科技有限公司2023年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202303/t20230322_22762160.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-03-22'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202303/t20230322_22762160.html
+    at: '2026-10-17'
+    excerpt: 中银金融科技有限公司2023年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230316_22730217
+  title: 中国银行股份有限公司2023年春季招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202303/t20230316_22730217.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-03-16'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202303/t20230316_22730217.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2023年春季招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230316_22730218
+  title: 中国银行股份有限公司2023年实习生招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202303/t20230316_22730218.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-03-16'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202303/t20230316_22730218.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2023年实习生招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230213_22555792
+  title: 中银金融租赁有限公司2023年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202302/t20230213_22555792.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-02-13'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202302/t20230213_22555792.html
+    at: '2026-10-17'
+    excerpt: 中银金融租赁有限公司2023年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230213_22555785
+  title: 中国银行2023年高层次海外人才招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202302/t20230213_22555785.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-02-13'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202302/t20230213_22555785.html
+    at: '2026-10-17'
+    excerpt: 中国银行2023年高层次海外人才招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20230113_22413823
+  title: 中国银行北京市分行2023年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202301/t20230113_22413823.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2023-01-13'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202301/t20230113_22413823.html
+    at: '2026-10-17'
+    excerpt: 中国银行北京市分行2023年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20221009_21884634
+  title: 中国银行数字资产运营中心社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202210/t20221009_21884634.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-10-09'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202210/t20221009_21884634.html
+    at: '2026-10-17'
+    excerpt: 中国银行数字资产运营中心社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20221009_21884633
+  title: 中国银行总行社会招聘公告(授信管理部)
+  url: https://www.boc.cn/aboutboc/bi4/202210/t20221009_21884633.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-10-09'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202210/t20221009_21884633.html
+    at: '2026-10-17'
+    excerpt: 中国银行总行社会招聘公告(授信管理部)
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20220930_21883157
+  title: 中国银行四川省分行2022年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202209/t20220930_21883157.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-09-30'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202209/t20220930_21883157.html
+    at: '2026-10-17'
+    excerpt: 中国银行四川省分行2022年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: true
+  scope_reason: 命中[金融]
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20220908_21763806
+  title: 中国银行股份有限公司2023年全球校园招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202209/t20220908_21763806.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-09-08'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202209/t20220908_21763806.html
+    at: '2026-10-17'
+    excerpt: 中国银行股份有限公司2023年全球校园招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20220819_21653228
+  title: 中国银行广东省分行2022年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202208/t20220819_21653228.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-08-19'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202208/t20220819_21653228.html
+    at: '2026-10-17'
+    excerpt: 中国银行广东省分行2022年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20220728_21515927
+  title: 中国银行深圳市分行2022年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202207/t20220728_21515927.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-07-28'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202207/t20220728_21515927.html
+    at: '2026-10-17'
+    excerpt: 中国银行深圳市分行2022年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'
+- id: cd_boc:t20220707_21402573
+  title: 中国银行青海省分行2022年社会招聘公告
+  url: https://www.boc.cn/aboutboc/bi4/202207/t20220707_21402573.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: '2022-07-07'
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.boc.cn/aboutboc/bi4/202207/t20220707_21402573.html
+    at: '2026-10-17'
+    excerpt: 中国银行青海省分行2022年社会招聘公告
+  last_verified: '2026-10-17'
+  entity: bank
+  in_scope: false
+  scope_reason: 非大成都
+  domain:
+  - 金融
+  first_seen: '2026-10-17'

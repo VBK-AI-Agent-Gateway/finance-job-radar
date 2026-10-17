@@ -5,10 +5,31 @@
 口径: 范围=大成都;银行全收;国企按「金融/后勤」筛;政府事业单位整体收;每日更新。
 不含个人简历/联系方式等个人信息。
 
-共 19 条,生成于 2026-10-17T13:35:09Z。
+共 40 条,生成于 2026-10-17T13:50:51Z。
 
 | 发布 | 标题 | 主体 | 类别 | 地区 | 来源 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-09-17 | [成都农商银行关于2027年校园招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=267) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-06-29 | [成都农商银行2026年“星·未来”实习生招聘公告](https://www.cdrcb.com/pin/zpdetail.htm?id=264) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-03-19 | [成都农村商业银行股份有限公司市场化选聘中层管理人员的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=241) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-03-19 | [成都农村商业银行股份有限公司市场化选聘执行层人员的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=240) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-03-17 | [成都农商银行关于2026年春季校园招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=237) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-03-17 | [成都农商银行关于软件开发岗（应用平台方向）社会招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=236) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-01-15 | [成都农商银行关于延长产业金融岗招聘时间的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=224) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-01-15 | [成都农商银行关于延长软件开发岗（应用架构方向）招聘报名时间的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=223) | 银行 |  | 成都 | cd_cdrcb |
+| 2026-01-15 | [成都农商银行关于延长授信审查岗招聘报名时间的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=222) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-12-18 | [成都农商银行关于2025年产业金融岗社会招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=218) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-12-18 | [成都农商银行关于2025年软件开发岗（应用架构方向）社会招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=217) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-12-18 | [成都农商银行关于2025年授信审查岗社会招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=216) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-10-28 | [成都农商银行关于2025年下半年综合柜员岗社会招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=206) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-10-28 | [成都农商银行关于2025年下半年软件开发岗（Java应用架构）、产品经理岗社会招聘的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=205) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-09-22 | [成都农商银行2026年校园招聘公告](https://www.cdrcb.com/pin/zpdetail.htm?id=200) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-06-12 | [成都农商银行2025年“星·未来” 暑期实习生招聘公告](https://www.cdrcb.com/pin/zpdetail.htm?id=191) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-04-15 | [成都农商银行关于2025年招聘综合柜员岗的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=182) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-03-26 | [成都农商银行2025年春季校园招聘公告](https://www.cdrcb.com/pin/zpdetail.htm?id=177) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-02-20 | [成都农村商业银行股份有限公司2025年上半年招聘专业技术岗位人员的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=176) | 银行 |  | 成都 | cd_cdrcb |
+| 2025-02-20 | [成都农村商业银行股份有限公司市场化选聘中层管理人员以及专业序列人员的公告](https://www.cdrcb.com/pin/zpdetail.htm?id=175) | 银行 |  | 成都 | cd_cdrcb |
+| 2022-09-30 | [中国银行四川省分行2022年社会招聘公告](https://www.boc.cn/aboutboc/bi4/202209/t20220930_21883157.html) | 银行 |  | 成都 | cd_boc |
 |  | [【社招】四川省国有资产经营投资管理有限责任公司总部综合办公室副主任以及所属企业主要负责人岗位公开选聘公告](https://mp.weixin.qq.com/s/4PdDOvEt_VTvc9y-Ksao0Q) | 国企 |  | 成都 | sc_gzw_recruit |
 |  | [成都市双流区教育系统2026年第三季度公开招聘编外工作人员公告](https://mp.weixin.qq.com/s/glH__EC8_I4B5R30u2f3hA) | 事业单位 |  | 成都 | cdpta_sydw |
 |  | [成都市新都区人民法院2026年下半年公开招聘聘用制人员公告](http://cdxdfy.scssfw.gov.cn/article/detail/2026/07/id/9423572.shtml) | 事业单位 |  | 成都 | cdpta_sydw |

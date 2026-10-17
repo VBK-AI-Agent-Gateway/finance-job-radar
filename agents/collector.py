@@ -23,10 +23,20 @@ def load_sources():
         return yaml.safe_load(f)["sources"]
 
 
-def fetch(src, url):
+def requests_for(src):
+    """-> 列表 [(url, method, data)];支持 API 分页参数注入(page_param/pages)。"""
+    pp, n = src.get("page_param"), int(src.get("pages") or 0)
+    body = dict(src.get("body") or {})
+    if pp and n:
+        return [(src["url"], src.get("method", "GET"), {**body, pp: i}) for i in range(1, n + 1)]
+    return [(u, src.get("method", "GET"), body) for u in source_urls(src)]
+
+
+def fetch(src, url, method="GET", data=None):
     """-> (ok, kind 'json'|'html', payload)"""
     try:
-        r = requests.get(url, headers=UA, timeout=25)
+        r = (requests.post(url, headers=UA, data=data, timeout=25)
+             if str(method).upper() == "POST" else requests.get(url, headers=UA, timeout=25))
         if r.status_code != 200:
             return False, None, f"HTTP {r.status_code}"
         ctype = r.headers.get("content-type", "")
@@ -55,9 +65,10 @@ def collect_one(src, changed_events):
     old_hash = None
     if meta.exists():
         old_hash = json.loads(meta.read_text(encoding="utf-8")).get("hash")
-    urls, parts, errors = source_urls(src), [], []
-    for i, url in enumerate(urls):
-        ok, kind, payload = fetch(src, url)
+    reqs, parts, errors, urls = requests_for(src), [], [], []
+    for i, (url, method, data) in enumerate(reqs):
+        urls.append(url)
+        ok, kind, payload = fetch(src, url, method, data)
         if not ok:
             errors.append({"url": url, "error": payload})
             continue

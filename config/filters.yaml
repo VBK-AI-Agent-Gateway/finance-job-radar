@@ -71,6 +71,7 @@ exclude_title:
   - 报到
   - 递补
   - 资格复审
+  - 声明
 
 domain:               # 仅对 entity=soe(国企) 生效
   finance:            # 金融类
