@@ -1,0 +1,288 @@
+source: cdpta_sydw
+name: 成都人事考试网-事业单位/公招
+homepage: https://cdpta.cdrsigc.com/netpage/index.do
+entity: institution
+region: 成都
+category: null
+last_fetched: '2026-10-17'
+postings:
+- id: cdpta_sydw:487684d7566abe7775a16768cfd1feb5
+  title: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍消防员招录面试工作的公告
+  url: https://cdpta.cdrsigc.com/netpage/noticecontent.jsp?typeid=60&amp;contentid=/frt/frtuploadfile/uploadfile/bulletin/2026/487684d7566abe7775a16768cfd1feb5.html
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdpta.cdrsigc.com/netpage/noticecontent.jsp?typeid=60&amp;contentid=/frt/frtuploadfile/uploadfile/bulletin/2026/487684d7566abe7775a16768cfd1feb5.html
+    at: '2026-10-17'
+    excerpt: 成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍消防员招录面试工作的公告
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_fb94b9f43fbc415cbdcd5dc47b065919.shtml
+  title: 成都市金堂县所属事业单位2026年上半年公开选调工作人员第一批拟聘用...
+  url: https://www.jintang.gov.cn/jtxrlzy/c115116/2026-10/15/content_fb94b9f43fbc415cbdcd5dc47b065919.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.jintang.gov.cn/jtxrlzy/c115116/2026-10/15/content_fb94b9f43fbc415cbdcd5dc47b065919.shtml
+    at: '2026-10-17'
+    excerpt: 成都市金堂县所属事业单位2026年上半年公开选调工作人员第一批拟聘用...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:1560681224744206336.shtml
+  title: 2026年上半年成都市双流区融媒体中心公开考试招聘2名主持人拟聘公示
+  url: https://www.shuangliu.gov.cn/gkml/cdsslqrlzyhshbzj/zkly/1560681224744206336.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.shuangliu.gov.cn/gkml/cdsslqrlzyhshbzj/zkly/1560681224744206336.shtml
+    at: '2026-10-17'
+    excerpt: 2026年上半年成都市双流区融媒体中心公开考试招聘2名主持人拟聘公示
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_83beb23a4c784a65aa306abe3419ac96.shtml
+  title: 成都市成华区2026年上半年公开考核招聘教师拟聘用人员公示（第四批）
+  url: https://www.chenghua.gov.cn/chqrmzf/c144208/2026-10/15/content_83beb23a4c784a65aa306abe3419ac96.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.chenghua.gov.cn/chqrmzf/c144208/2026-10/15/content_83beb23a4c784a65aa306abe3419ac96.shtml
+    at: '2026-10-17'
+    excerpt: 成都市成华区2026年上半年公开考核招聘教师拟聘用人员公示（第四批）
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_4e748136e7c149daa30865feba54ccc9.shtml
+  title: 成都市卫生健康委员会2025“蓉漂人才荟”考核招聘高校毕业生拟聘人员...
+  url: https://cdwjw.chengdu.gov.cn/cdwjw/tzgg/2026-10/15/content_4e748136e7c149daa30865feba54ccc9.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdwjw.chengdu.gov.cn/cdwjw/tzgg/2026-10/15/content_4e748136e7c149daa30865feba54ccc9.shtml
+    at: '2026-10-17'
+    excerpt: 成都市卫生健康委员会2025“蓉漂人才荟”考核招聘高校毕业生拟聘人员...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_f9fb4d0ddeb842ae920b1775a0af63d5.shtml
+  title: 成都市卫生健康委员会所属事业单位2026年公开选调工作人员拟聘人员公...
+  url: https://cdwjw.chengdu.gov.cn/cdwjw/tzgg/2026-10/14/content_f9fb4d0ddeb842ae920b1775a0af63d5.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://cdwjw.chengdu.gov.cn/cdwjw/tzgg/2026-10/14/content_f9fb4d0ddeb842ae920b1775a0af63d5.shtml
+    at: '2026-10-17'
+    excerpt: 成都市卫生健康委员会所属事业单位2026年公开选调工作人员拟聘人员公...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_ec0230ba2f4f420ca9ef6712e9d492c3.shtml
+  title: 关于成都市新津区所属事业单位2026年公开考试招聘工作人员公示及报到...
+  url: https://www.xinjin.gov.cn/xjxrmzf/c125685/2026-10/12/content_ec0230ba2f4f420ca9ef6712e9d492c3.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.xinjin.gov.cn/xjxrmzf/c125685/2026-10/12/content_ec0230ba2f4f420ca9ef6712e9d492c3.shtml
+    at: '2026-10-17'
+    excerpt: 关于成都市新津区所属事业单位2026年公开考试招聘工作人员公示及报到...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:18665
+  title: 成都工业职业技术学院2025年12月公开考核招聘6名高层次人才拟聘人...
+  url: https://www.cdivtc.edu.cn/info/1132/18665.htm
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.cdivtc.edu.cn/info/1132/18665.htm
+    at: '2026-10-17'
+    excerpt: 成都工业职业技术学院2025年12月公开考核招聘6名高层次人才拟聘人...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_95ebf05105364c37ab51ac2fa3988b72.shtml
+  title: 成都市郫都区关于所属事业单位2026年上半年公开考试招聘工作人员考察...
+  url: https://www.pidu.gov.cn/pidu/c125580/2026-10/10/content_95ebf05105364c37ab51ac2fa3988b72.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.pidu.gov.cn/pidu/c125580/2026-10/10/content_95ebf05105364c37ab51ac2fa3988b72.shtml
+    at: '2026-10-17'
+    excerpt: 成都市郫都区关于所属事业单位2026年上半年公开考试招聘工作人员考察...
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:1555002.htm_zdw_4
+  title: 自然资源部四川基础地理信息中心2026年度面向社会公开招聘公告
+  url: https://scsm.mnr.gov.cn/zsdw/zrzybscjcdlxxzx/gqgg/1555002.htm?zdw=4
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://scsm.mnr.gov.cn/zsdw/zrzybscjcdlxxzx/gqgg/1555002.htm?zdw=4
+    at: '2026-10-17'
+    excerpt: 自然资源部四川基础地理信息中心2026年度面向社会公开招聘公告
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:2089275061788741634
+  title: 成都市双流区教育系统2026年第三季度公开招聘第二批编外工作人员公告
+  url: https://slrc114.cn/announcement/2089275061788741634
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://slrc114.cn/announcement/2089275061788741634
+    at: '2026-10-17'
+    excerpt: 成都市双流区教育系统2026年第三季度公开招聘第二批编外工作人员公告
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:content_bfd90c76b97840c6a5b73ebf517d6746.shtml
+  title: 2026年双流区面向社会公开招聘政府雇员拟聘公示
+  url: https://www.shuangliu.gov.cn/slqrmzf/c172522/2026-07/31/content_bfd90c76b97840c6a5b73ebf517d6746.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://www.shuangliu.gov.cn/slqrmzf/c172522/2026-07/31/content_bfd90c76b97840c6a5b73ebf517d6746.shtml
+    at: '2026-10-17'
+    excerpt: 2026年双流区面向社会公开招聘政府雇员拟聘公示
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: false
+  scope_reason: 非岗位(过程/结果公示)
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:9423572.shtml
+  title: 成都市新都区人民法院2026年下半年公开招聘聘用制人员公告
+  url: http://cdxdfy.scssfw.gov.cn/article/detail/2026/07/id/9423572.shtml
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: http://cdxdfy.scssfw.gov.cn/article/detail/2026/07/id/9423572.shtml
+    at: '2026-10-17'
+    excerpt: 成都市新都区人民法院2026年下半年公开招聘聘用制人员公告
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'
+- id: cdpta_sydw:glH__EC8_I4B5R30u2f3hA
+  title: 成都市双流区教育系统2026年第三季度公开招聘编外工作人员公告
+  url: https://mp.weixin.qq.com/s/glH__EC8_I4B5R30u2f3hA
+  org: null
+  category: null
+  region: 成都
+  publish_date: null
+  deadline: null
+  status: declared
+  evidence:
+  - kind: official_page
+    url: https://mp.weixin.qq.com/s/glH__EC8_I4B5R30u2f3hA
+    at: '2026-10-17'
+    excerpt: 成都市双流区教育系统2026年第三季度公开招聘编外工作人员公告
+  last_verified: '2026-10-17'
+  entity: institution
+  in_scope: true
+  scope_reason: 命中[institution]
+  domain: []
+  first_seen: '2026-10-17'

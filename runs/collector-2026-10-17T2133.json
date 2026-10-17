@@ -1,0 +1,25 @@
+{
+ "agent": "collector",
+ "at": "2026-10-17T13:33:43Z",
+ "results": [
+  {
+   "id": "cd_bocd",
+   "ok": true,
+   "changed": false,
+   "pages": 2
+  },
+  {
+   "id": "sc_gzw_recruit",
+   "ok": true,
+   "changed": false,
+   "pages": 1
+  },
+  {
+   "id": "cdpta_sydw",
+   "ok": true,
+   "changed": false,
+   "pages": 1
+  }
+ ],
+ "changes": []
+}

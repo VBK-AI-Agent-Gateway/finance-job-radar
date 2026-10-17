@@ -7,9 +7,10 @@
 import argparse, glob as globmod, json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-ALLOW_TOP = {"source", "name", "homepage", "region", "category", "last_fetched", "postings", "portals"}
+ALLOW_TOP = {"source", "name", "homepage", "entity", "region", "category", "last_fetched", "postings", "portals"}
 ALLOW_POST = {"id", "title", "url", "org", "category", "region", "publish_date", "deadline",
-              "status", "evidence", "last_verified", "first_seen", "notes"}
+              "status", "evidence", "last_verified", "first_seen", "notes",
+              "entity", "in_scope", "scope_reason", "domain"}
 STATUSES = {"verified", "declared", "reported", "disputed", "stale"}
 SOURCE_KINDS = {"probe", "official_api", "official_page", "vendor_submission", "community",
                 "telemetry", "page_quote", "detector", "human"}
@@ -43,7 +44,11 @@ def guard_text(text):
     hits = scan_keys(text)
     if hits:
         errs.append(f"BLOCKED key-like content: {', '.join(hits)} -> 立刻吊销该密钥!")
-    pii = scan_pii(text)
+    # PII 只扫「人可读内容」:跳过 id/url/homepage 结构行(URL 与条目 ID 中的长数字属正常)
+    pii_text = "\n".join(l for l in text.splitlines()
+                         if not re.match(r"^\s*(-\s*)?(id|url|homepage|home_url)\s*:", l))
+    pii_text = re.sub(r"https?://\S+", " ", pii_text)
+    pii = scan_pii(pii_text)
     if pii:
         errs.append(f"BLOCKED PII ({', '.join(pii)}) -> 岗位情报不得携带个人信息(PIPL)")
     if INJECT.search(text):

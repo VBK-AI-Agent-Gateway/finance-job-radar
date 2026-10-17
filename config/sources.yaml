@@ -1,40 +1,58 @@
-# 数据源正本:金融 / 事业单位「公开招聘」官方列表页
-# 原则:只收公开、低对抗的官方渠道;不碰需要登录/验证码/强风控的招聘平台。
+# 数据源正本:大成都「金融/后勤 + 国企/政府事业单位/银行」招聘官方列表页
+# 口径见 config/filters.yaml(范围=大成都;银行全收;国企按金融后勤筛;事业单位整体收)。
+# 只收公开、低对抗的官方渠道;不碰需登录/验证码/强风控的招聘平台。
 # 字段:
-#   id        源唯一标识(快照/正本文件名)
-#   name      人读名称
-#   url       列表页地址
-#   type      official_page | official_api
-#   parser    抽取器名(agents/extractor.py 注册表)
-#   region    地区标注
-#   category  岗位类别:事业单位 | 公务员 | 社会招聘 | 校园招聘
-#   check     采集频率(人工参考)
+#   id             源唯一标识(快照/正本文件名)
+#   name           人读名称
+#   urls           列表页地址(可多个分页,采集器依次抓)
+#   type           official_page | official_api
+#   parser         抽取器名(agents/extractor.py 注册表)
+#   entity         bank | soe | gov | institution (决定过滤规则)
+#   region         展示用地区
+#   default_region 若为「成都」则该源条目默认视为成都范围(免关键词匹配)
+#   title_kw       标题命中关键词(判定为一条招聘公告)
+#   check          采集频率(人工参考)
 sources:
-- id: bj_gkzp
-  name: 北京市人社局-事业单位公开招聘
-  url: https://rsj.beijing.gov.cn/xxgk/gkzp/
+# ── 银行(成都范围内全收) ──────────────────────────────
+- id: cd_bocd
+  name: 成都银行-招聘公告
+  urls:
+    - https://www.bocd.com.cn/zyxxfb/rczp/zhaopingonggao/list1.html
+    - https://www.bocd.com.cn/zyxxfb/rczp/zhaopingonggao/list2.html
   type: official_page
-  parser: gov_list
-  region: 北京
-  category: 事业单位
+  parser: anchors_list
+  entity: bank
+  region: 成都
+  default_region: 成都
+  title_kw: [招聘, 选聘]
   check: daily
 
-- id: sh_sydw_gkzp
-  name: 上海市人社局-事业单位公开招聘
-  url: https://rsj.sh.gov.cn/tsydwgkzp_17406/
+# ── 国企(成都,须命中金融/后勤关键词) ──────────────────
+- id: sc_gzw_recruit
+  name: 四川省国资委-国企招聘
+  urls:
+    - http://gzw.sc.gov.cn/scsgzw/CU230408/cu_list.shtml
   type: official_page
-  parser: gov_list
-  region: 上海
-  category: 事业单位
+  parser: anchors_list
+  entity: soe
+  region: 成都
+  # 省属国企总部多在成都;标题常不标城市 -> 默认按成都范围,再按金融/后勤筛(用户口径)
+  default_region: 成都
+  title_kw: [招聘, 招录, 选聘, 遴选]
   check: daily
 
-# 目录型源:协会聚合各家券商招聘入口 + 站内招聘公告(用于"发现员",扩充后续采集目标)
-- id: sac_recruit
-  name: 中国证券业协会-证券经营机构招聘
-  url: https://www.sac.net.cn/fwdt/hyfw/zqjyjgzp/
+# ── 政府/事业单位(大成都整体收) ──────────────────────
+- id: cdpta_sydw
+  name: 成都人事考试网-事业单位/公招
+  urls:
+    - https://cdpta.cdrsigc.com/netpage/index.do
   type: official_page
-  parser: link_directory
-  region: 全国
-  category: 社会招聘
-  title_kw: [招聘, 招募]
+  parser: anchors_list
+  entity: institution
+  region: 成都
+  default_region: 成都
+  title_kw: [招聘, 公招, 选聘, 选调, 招录, 遴选, 聘用]
   check: daily
+
+# 备注:四川省人社厅(sc_rst)/四川人事考试网(scpta)首页为 JS/GBK,静态列表拿不到招聘公告,
+#       暂用成都市人事考试网(cdpta_sydw)覆盖事业单位/公招;省属事业单位源待接入(阶段2)。

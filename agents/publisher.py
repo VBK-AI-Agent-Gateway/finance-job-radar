@@ -22,9 +22,11 @@ def load_all():
     for fp in sorted(POST.glob("*.yaml")):
         doc = yaml.safe_load(fp.read_text(encoding="utf-8")) or {}
         src = {"source": doc.get("source") or fp.stem, "name": doc.get("name"),
-               "homepage": doc.get("homepage"), "region": doc.get("region"),
-               "category": doc.get("category"), "last_fetched": doc.get("last_fetched")}
-        posts = [p for p in (doc.get("postings") or []) if p.get("status") not in DROP_STATUS]
+               "homepage": doc.get("homepage"), "entity": doc.get("entity"),
+               "region": doc.get("region"), "category": doc.get("category"),
+               "last_fetched": doc.get("last_fetched")}
+        posts = [p for p in (doc.get("postings") or [])
+                 if p.get("status") not in DROP_STATUS and p.get("in_scope")]
         for p in posts:
             p["source"] = src["source"]
             jobs.append(p)
@@ -66,9 +68,9 @@ def write_rss(jobs):
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0"><channel>\n'
-        "  <title>金融/事业单位 招聘情报</title>\n"
+        "  <title>大成都 · 金融/后勤 招聘情报</title>\n"
         f"  <link>{REPO}</link>\n"
-        "  <description>每日公开渠道招聘公告汇总(事业单位/公务员/金融机构)</description>\n"
+        "  <description>大成都范围内 银行/国企/政府事业单位 金融后勤招聘公告(每日更新)</description>\n"
         f"  <lastBuildDate>{_rfc822(time.strftime('%Y-%m-%d', time.gmtime()))}</lastBuildDate>\n"
         + "\n".join(items) + "\n</channel></rss>\n")
     (DOCS / "feed.xml").write_text(xml, encoding="utf-8")
@@ -77,7 +79,7 @@ def write_rss(jobs):
 HTML_TMPL = """<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>金融/事业单位 招聘情报</title>
+<title>大成都 · 金融/后勤 招聘情报</title>
 <style>
  body{{font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;margin:0;background:#0f1115;color:#e6e6e6}}
  header{{padding:18px 22px;border-bottom:1px solid #23262d;position:sticky;top:0;background:#0f1115dd;backdrop-filter:blur(6px)}}
@@ -92,16 +94,17 @@ HTML_TMPL = """<!doctype html>
  .tag.公务员{{background:#2a1e2a;color:#ffb0d6}}
  .tag.社会招聘{{background:#1e2a24;color:#9be8b4}}
 </style></head><body>
-<header><h1>金融 / 事业单位 招聘情报</h1>
+<header><h1>大成都 · 金融/后勤 招聘情报</h1>
 <div class="meta">正本 jobs.json · 共 {count} 条 · 生成 {gen} · <a href="feed.xml">RSS</a></div></header>
 <div class="bar">
  <input id="q" placeholder="搜索单位 / 标题…" oninput="render()" style="min-width:240px">
  <select id="region" onchange="render()"><option value="">全部地区</option>{regions}</select>
  <select id="cat" onchange="render()"><option value="">全部类别</option>{cats}</select>
 </div>
-<table><thead><tr><th>发布</th><th>标题</th><th>类别</th><th>地区</th><th>来源</th></tr></thead>
+<table><thead><tr><th>发布</th><th>标题</th><th>主体</th><th>类别</th><th>地区</th><th>来源</th></tr></thead>
 <tbody id="tb"></tbody></table>
 <script>
+const ENT={{bank:'银行',soe:'国企',gov:'政府',institution:'事业单位'}};
 const JOBS={data};
 function render(){{
  const q=(document.getElementById('q').value||'').toLowerCase();
@@ -111,6 +114,7 @@ function render(){{
  document.getElementById('tb').innerHTML=rows.map(j=>`<tr>
    <td>${{j.publish_date||''}}</td>
    <td><a href="${{j.url}}" target="_blank" rel="noopener">${{j.title||''}}</a></td>
+   <td><span class="tag">${{ENT[j.entity]||j.entity||'—'}}</span></td>
    <td><span class="tag ${{j.category||''}}">${{j.category||'—'}}</span></td>
    <td>${{j.region||'—'}}</td><td>${{j.source||''}}</td></tr>`).join('');
 }}
@@ -129,14 +133,17 @@ def write_html(sources, jobs):
 
 def write_readme(sources, jobs):
     lines = ["# finance-job-radar", "",
-             "金融 / 事业单位「公开招聘」情报汇聚智能体 — 只收公开官方渠道,每条带来源与验证时间。", "",
-             "口径: 岗位 = 公开**招聘公告/岗位**(事业单位、公务员、金融机构社招);不含个人简历/联系方式。", "",
+             "大成都 · 金融/后勤 招聘情报汇聚智能体 — 只收公开官方渠道,每条带来源与验证时间。", "",
+             "口径: 范围=大成都;银行全收;国企按「金融/后勤」筛;政府事业单位整体收;每日更新。",
+             "不含个人简历/联系方式等个人信息。", "",
              f"共 {len(jobs)} 条,生成于 {_iso_now()}。", "",
-             "| 发布 | 标题 | 类别 | 地区 | 来源 |", "| --- | --- | --- | --- | --- |"]
+             "| 发布 | 标题 | 主体 | 类别 | 地区 | 来源 |", "| --- | --- | --- | --- | --- | --- |"]
+    ent = {"bank": "银行", "soe": "国企", "gov": "政府", "institution": "事业单位"}
     for j in jobs[:80]:
         t = (j.get("title") or "").replace("|", "/")
         lines.append(f"| {j.get('publish_date') or ''} | [{t}]({j.get('url') or ''}) | "
-                     f"{j.get('category') or ''} | {j.get('region') or ''} | {j.get('source') or ''} |")
+                     f"{ent.get(j.get('entity'), j.get('entity') or '')} | {j.get('category') or ''} | "
+                     f"{j.get('region') or ''} | {j.get('source') or ''} |")
     lines += ["", "数据正本: `postings/*.yaml`;机器可读: `docs/jobs.json`;订阅: `docs/feed.xml`。"]
     (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

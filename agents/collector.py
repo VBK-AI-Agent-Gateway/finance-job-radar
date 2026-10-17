@@ -9,7 +9,13 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 SNAP = ROOT / "snapshots"
 RUNS = ROOT / "runs"
 REPO = "https://github.com/VBK-AI-Agent-Gateway/finance-job-radar"
-UA = {"User-Agent": f"finance-job-radar/0 (+{REPO})"}
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "Accept-Language": "zh-CN,zh;q=0.9"}
+
+
+def source_urls(src):
+    return src.get("urls") or [src["url"]]
 
 
 def load_sources():
@@ -17,10 +23,10 @@ def load_sources():
         return yaml.safe_load(f)["sources"]
 
 
-def fetch(src):
+def fetch(src, url):
     """-> (ok, kind 'json'|'html', payload)"""
     try:
-        r = requests.get(src["url"], headers=UA, timeout=25)
+        r = requests.get(url, headers=UA, timeout=25)
         if r.status_code != 200:
             return False, None, f"HTTP {r.status_code}"
         ctype = r.headers.get("content-type", "")
@@ -32,8 +38,9 @@ def fetch(src):
         return False, None, str(e)[:200]
 
 
-def snap_path(sid, kind):
-    return SNAP / (f"{sid}.json" if kind == "json" else f"{sid}.html")
+def snap_path(sid, index, kind):
+    ext = "json" if kind == "json" else "html"
+    return SNAP / (f"{sid}.{ext}" if index == 0 else f"{sid}__{index}.{ext}")
 
 
 def digest(payload):
@@ -44,27 +51,31 @@ def digest(payload):
 
 def collect_one(src, changed_events):
     sid = src["id"]
-    ok, kind, payload = fetch(src)
-    if not ok:
-        return {"id": sid, "ok": False, "error": payload}
-    pj = snap_path(sid, kind)
-    old_hash = None
     meta = SNAP / f"{sid}.meta.json"
+    old_hash = None
     if meta.exists():
         old_hash = json.loads(meta.read_text(encoding="utf-8")).get("hash")
-    new_hash = digest(payload)
+    urls, parts, errors = source_urls(src), [], []
+    for i, url in enumerate(urls):
+        ok, kind, payload = fetch(src, url)
+        if not ok:
+            errors.append({"url": url, "error": payload})
+            continue
+        snap_path(sid, i, kind).write_text(
+            json.dumps(payload, ensure_ascii=False, indent=1) if kind == "json" else payload,
+            encoding="utf-8")
+        parts.append(payload if isinstance(payload, str) else json.dumps(payload, ensure_ascii=False, sort_keys=True))
+    if not parts:
+        return {"id": sid, "ok": False, "error": "; ".join(e["error"] for e in errors)}
+    new_hash = digest("\u0000".join(parts))
     changed = old_hash is not None and old_hash != new_hash
-    if kind == "json":
-        pj.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    else:
-        pj.write_text(payload, encoding="utf-8")
-    meta.write_text(json.dumps({"id": sid, "url": src["url"], "type": src["type"],
+    meta.write_text(json.dumps({"id": sid, "urls": urls, "type": src["type"],
                                 "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                                "hash": new_hash}, ensure_ascii=False, indent=1), encoding="utf-8")
+                                "hash": new_hash, "errors": errors}, ensure_ascii=False, indent=1), encoding="utf-8")
     if changed:
-        changed_events.append({"id": sid, "url": src["url"], "type": src["type"],
+        changed_events.append({"id": sid, "urls": urls, "type": src["type"],
                                "old_hash": old_hash, "new_hash": new_hash})
-    return {"id": sid, "ok": True, "changed": bool(changed)}
+    return {"id": sid, "ok": True, "changed": bool(changed), "pages": len(parts)}
 
 
 def main(argv=None):
@@ -73,7 +84,7 @@ def main(argv=None):
     args = ap.parse_args(argv)
     if args.dry_run:
         for s in load_sources():
-            print(f"[dry-run] would fetch {s['id']} {s['url']}")
+            print(f"[dry-run] would fetch {s['id']} {source_urls(s)}")
         return 0
     SNAP.mkdir(exist_ok=True); RUNS.mkdir(exist_ok=True)
     events, results = [], []
