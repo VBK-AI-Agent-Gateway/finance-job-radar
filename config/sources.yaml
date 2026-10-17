@@ -1,0 +1,40 @@
+# 数据源正本:金融 / 事业单位「公开招聘」官方列表页
+# 原则:只收公开、低对抗的官方渠道;不碰需要登录/验证码/强风控的招聘平台。
+# 字段:
+#   id        源唯一标识(快照/正本文件名)
+#   name      人读名称
+#   url       列表页地址
+#   type      official_page | official_api
+#   parser    抽取器名(agents/extractor.py 注册表)
+#   region    地区标注
+#   category  岗位类别:事业单位 | 公务员 | 社会招聘 | 校园招聘
+#   check     采集频率(人工参考)
+sources:
+- id: bj_gkzp
+  name: 北京市人社局-事业单位公开招聘
+  url: https://rsj.beijing.gov.cn/xxgk/gkzp/
+  type: official_page
+  parser: gov_list
+  region: 北京
+  category: 事业单位
+  check: daily
+
+- id: sh_sydw_gkzp
+  name: 上海市人社局-事业单位公开招聘
+  url: https://rsj.sh.gov.cn/tsydwgkzp_17406/
+  type: official_page
+  parser: gov_list
+  region: 上海
+  category: 事业单位
+  check: daily
+
+# 目录型源:协会聚合各家券商招聘入口 + 站内招聘公告(用于"发现员",扩充后续采集目标)
+- id: sac_recruit
+  name: 中国证券业协会-证券经营机构招聘
+  url: https://www.sac.net.cn/fwdt/hyfw/zqjyjgzp/
+  type: official_page
+  parser: link_directory
+  region: 全国
+  category: 社会招聘
+  title_kw: [招聘, 招募]
+  check: daily

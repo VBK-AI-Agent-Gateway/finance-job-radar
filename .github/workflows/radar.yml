@@ -1,0 +1,56 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "17 1 * * *"   # 每天 01:17 UTC(北京 09:17)采集+发布
+  workflow_dispatch: {}
+
+permissions:
+  contents: write  # 最低:只有发布产物提交回仓库
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+
+  collect:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - name: Collect (官方列表页 -> snapshots)
+        run: python agents/collector.py
+      - name: Extract (HTML -> 结构化公告 -> postings/*.yaml)
+        run: python agents/extractor.py
+      - uses: actions/upload-artifact@v4
+        with: {name: postings, path: "postings/**"}
+
+  publish:
+    needs: collect
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with: {name: postings, path: postings/}
+      - name: Guard (安全闸:密钥/注入/PII,不过则整个 run 失败)
+        run: python agents/guard.py --file postings/*.yaml
+      - name: Publish (jobs.json + feed.xml + index.html + README)
+        run: python agents/publisher.py
+      - name: Commit artifacts
+        run: |
+          git config user.name "finance-job-radar[bot]"
+          git config user.email "radar@users.noreply.github.com"
+          git add postings/ docs/ README.md runs/ snapshots/ state.changes.json || true
+          git diff --cached --quiet || git commit -m "radar: auto update $(date -u +%FT%TZ)"
+          git push

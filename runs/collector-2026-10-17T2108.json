@@ -1,0 +1,22 @@
+{
+ "agent": "collector",
+ "at": "2026-10-17T13:08:53Z",
+ "results": [
+  {
+   "id": "bj_gkzp",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "id": "sh_sydw_gkzp",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "id": "sac_recruit",
+   "ok": true,
+   "changed": false
+  }
+ ],
+ "changes": []
+}
