@@ -4,7 +4,7 @@ homepage: https://www.boc.cn/aboutboc/bi4/
 entity: bank
 region: 成都
 category: null
-last_fetched: '2026-10-17'
+last_fetched: '2026-10-18'
 postings:
 - id: cd_boc:t20260903_25689311
   title: 中国银行股份有限公司2027年全球校园招聘公告
@@ -18,9 +18,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2027年全球校园招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -39,9 +39,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202607/t20260721_25680323.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行消防安全专项社会招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -60,9 +60,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202605/t20260511_25666277.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行2026年高层次海外人才招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -81,9 +81,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654053.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2026年春季招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -102,9 +102,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202603/t20260311_25654054.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2026年实习生招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -123,9 +123,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202509/t20250905_25484753.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2026年全球校园招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -144,9 +144,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202507/t20250702_25401883.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行2025年社会招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -165,9 +165,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202503/t20250326_25304552.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行2025年高层次海外人才招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -186,9 +186,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283198.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2025年春季招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -207,9 +207,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202503/t20250303_25283197.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2025年实习生招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -228,9 +228,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202409/t20240920_25158734.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行上海总部社会招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -249,9 +249,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202409/t20240904_25147628.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行股份有限公司2025年全球校园招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
@@ -270,9 +270,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.boc.cn/aboutboc/bi4/202408/t20240816_25134190.html
-    at: '2026-10-17'
+    at: '2026-10-18'
     excerpt: 中国银行2024年高层次人才招聘公告
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-18'
   entity: bank
   in_scope: false
   scope_reason: 非大成都
