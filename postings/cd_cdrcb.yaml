@@ -4,7 +4,7 @@ homepage: https://www.cdrcb.com/pin/dt.php
 entity: bank
 region: 成都
 category: null
-last_fetched: '2026-10-19'
+last_fetched: '2026-10-20'
 postings:
 - id: cd_cdrcb:267
   title: 成都农商银行关于2027年校园招聘的公告
@@ -18,9 +18,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=267
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2027年校园招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: true
   scope_reason: 命中[金融]
@@ -39,9 +39,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=264
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行2026年“星·未来”实习生招聘公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: true
   scope_reason: 命中[金融]
@@ -60,9 +60,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=240
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农村商业银行股份有限公司市场化选聘执行层人员的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -81,9 +81,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=241
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农村商业银行股份有限公司市场化选聘中层管理人员的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -102,9 +102,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=236
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于软件开发岗（应用平台方向）社会招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -123,9 +123,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=237
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2026年春季校园招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -144,9 +144,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=222
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于延长授信审查岗招聘报名时间的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -165,9 +165,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=223
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于延长软件开发岗（应用架构方向）招聘报名时间的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -186,9 +186,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=224
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于延长产业金融岗招聘时间的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -207,9 +207,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=216
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2025年授信审查岗社会招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -228,9 +228,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=217
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2025年软件开发岗（应用架构方向）社会招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -249,9 +249,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=218
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2025年产业金融岗社会招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -270,9 +270,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=206
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2025年下半年综合柜员岗社会招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -291,9 +291,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=205
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2025年下半年软件开发岗（Java应用架构）、产品经理岗社会招聘的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -312,9 +312,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=200
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行2026年校园招聘公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -333,9 +333,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=191
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行2025年“星·未来” 暑期实习生招聘公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -354,9 +354,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=182
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行关于2025年招聘综合柜员岗的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -375,9 +375,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=177
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农商银行2025年春季校园招聘公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -396,9 +396,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=175
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农村商业银行股份有限公司市场化选聘中层管理人员以及专业序列人员的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
@@ -417,9 +417,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://www.cdrcb.com/pin/zpdetail.htm?id=176
-    at: '2026-10-19'
+    at: '2026-10-20'
     excerpt: 成都农村商业银行股份有限公司2025年上半年招聘专业技术岗位人员的公告
-  last_verified: '2026-10-19'
+  last_verified: '2026-10-20'
   entity: bank
   in_scope: false
   scope_reason: 过旧(>180天)
