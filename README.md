@@ -5,7 +5,7 @@
 口径: 范围=大成都;银行全收;国企按「金融/后勤」筛;政府事业单位整体收;每日更新。
 不含个人简历/联系方式等个人信息。
 
-共 12 条,生成于 2026-10-24T06:00:54Z。
+共 11 条,生成于 2026-10-25T06:15:58Z。
 
 | 发布 | 标题 | 主体 | 类别 | 地区 | 来源 |
 | --- | --- | --- | --- | --- | --- |
@@ -20,6 +20,5 @@
 | 2026-07-15 | [成都市双流区教育系统2026年第三季度公开招聘编外工作人员公告](https://mp.weixin.qq.com/s/glH__EC8_I4B5R30u2f3hA) | 事业单位 |  | 成都 | cdpta_sydw |
 | 2026-07-14 | [成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍...](https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/027123ec2db87507459236c162d73495.html) | 事业单位 |  | 成都 | cdpta_sydw |
 | 2026-06-29 | [成都农商银行2026年“星·未来”实习生招聘公告](https://www.cdrcb.com/pin/zpdetail.htm?id=264) | 银行 |  | 成都 | cd_cdrcb |
-| 2026-04-27 | [成都市2026年上半年教师公招和成都市2026年上半年...](https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/61ee3d6c0e7270d6edfdd80766d0e02b.html) | 事业单位 |  | 成都 | cdpta_sydw |
 
 数据正本: `postings/*.yaml`;机器可读: `docs/jobs.json`;订阅: `docs/feed.xml`。
