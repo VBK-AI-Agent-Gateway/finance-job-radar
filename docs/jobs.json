@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T06:24:09Z",
+ "generated": "2026-10-27T06:24:59Z",
  "count": 11,
  "sources": [
   {
@@ -9,7 +9,7 @@
    "entity": "bank",
    "region": "成都",
    "category": null,
-   "last_fetched": "2026-10-26",
+   "last_fetched": "2026-10-27",
    "count": 0
   },
   {
@@ -19,7 +19,7 @@
    "entity": "bank",
    "region": "成都",
    "category": null,
-   "last_fetched": "2026-10-26",
+   "last_fetched": "2026-10-27",
    "count": 1
   },
   {
@@ -29,7 +29,7 @@
    "entity": "bank",
    "region": "成都",
    "category": null,
-   "last_fetched": "2026-10-26",
+   "last_fetched": "2026-10-27",
    "count": 2
   },
   {
@@ -39,7 +39,7 @@
    "entity": "institution",
    "region": "成都",
    "category": null,
-   "last_fetched": "2026-10-26",
+   "last_fetched": "2026-10-27",
    "count": 7
   },
   {
@@ -49,7 +49,7 @@
    "entity": "soe",
    "region": "成都",
    "category": null,
-   "last_fetched": "2026-10-26",
+   "last_fetched": "2026-10-27",
    "count": 1
   }
  ],
@@ -68,11 +68,11 @@
     {
      "kind": "official_page",
      "url": "https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/bb8b9c9b9acbe80991cf4a4dc9480d81.html",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "中共成都市委社会工作部关于2026年社会化选聘新兴领域党建工作专员 ..."
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[institution]",
@@ -94,11 +94,11 @@
     {
      "kind": "official_page",
      "url": "https://mp.weixin.qq.com/s/4PdDOvEt_VTvc9y-Ksao0Q",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "【社招】四川省国有资产经营投资管理有限责任公司总部综合办公室副主任以及所属企业主要负责人岗位公开选聘公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "soe",
    "in_scope": true,
    "scope_reason": "命中[金融/后勤]",
@@ -123,11 +123,11 @@
     {
      "kind": "official_page",
      "url": "https://scsm.mnr.gov.cn/zsdw/zrzybscjcdlxxzx/gqgg/1555002.htm?zdw=4",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "自然资源部四川基础地理信息中心2026年度面向社会公开招聘公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[institution]",
@@ -149,11 +149,11 @@
     {
      "kind": "official_page",
      "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=267",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都农商银行关于2027年校园招聘的公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "bank",
    "in_scope": true,
    "scope_reason": "命中[金融]",
@@ -177,11 +177,11 @@
     {
      "kind": "official_page",
      "url": "https://www.bocd.com.cn/zyxxfb/rczp/zhaopingonggao/1297971392687509504.html",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都银行2027年秋季校园招聘公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "bank",
    "in_scope": true,
    "scope_reason": "命中[金融]",
@@ -205,11 +205,11 @@
     {
      "kind": "official_page",
      "url": "https://slrc114.cn/announcement/2089275061788741634",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都市双流区教育系统2026年第三季度公开招聘第二批编外工作人员公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[institution]",
@@ -231,11 +231,11 @@
     {
      "kind": "official_page",
      "url": "https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/b40b5b5ac25f6dd72d1ee73a2a7ffe0e.html",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "中共成都市委组织部关于成都市2026年度选调优秀大学毕业生到基层工作..."
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[institution]",
@@ -257,11 +257,11 @@
     {
      "kind": "official_page",
      "url": "http://cdxdfy.scssfw.gov.cn/article/detail/2026/07/id/9423572.shtml",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都市新都区人民法院2026年下半年公开招聘聘用制人员公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[institution]",
@@ -283,11 +283,11 @@
     {
      "kind": "official_page",
      "url": "https://mp.weixin.qq.com/s/glH__EC8_I4B5R30u2f3hA",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都市双流区教育系统2026年第三季度公开招聘编外工作人员公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[institution]",
@@ -309,11 +309,11 @@
     {
      "kind": "official_page",
      "url": "https://cdpta.cdrsigc.com/frt/frtuploadfile/uploadfile/bulletin/2026/027123ec2db87507459236c162d73495.html",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都市消防员招录工作办公室关于开展2026年度国家综合性消防救援队伍..."
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "institution",
    "in_scope": true,
    "scope_reason": "命中[后勤]",
@@ -337,11 +337,11 @@
     {
      "kind": "official_page",
      "url": "https://www.cdrcb.com/pin/zpdetail.htm?id=264",
-     "at": "2026-10-26",
+     "at": "2026-10-27",
      "excerpt": "成都农商银行2026年“星·未来”实习生招聘公告"
     }
    ],
-   "last_verified": "2026-10-26",
+   "last_verified": "2026-10-27",
    "entity": "bank",
    "in_scope": true,
    "scope_reason": "命中[金融]",
