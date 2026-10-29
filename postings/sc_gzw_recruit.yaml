@@ -4,7 +4,7 @@ homepage: http://gzw.sc.gov.cn/scsgzw/CU230408/cu_list.shtml
 entity: soe
 region: 成都
 category: null
-last_fetched: '2026-10-28'
+last_fetched: '2026-10-29'
 postings:
 - id: sc_gzw_recruit:4PdDOvEt_VTvc9y-Ksao0Q
   title: 【社招】四川省国有资产经营投资管理有限责任公司总部综合办公室副主任以及所属企业主要负责人岗位公开选聘公告
@@ -18,9 +18,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/4PdDOvEt_VTvc9y-Ksao0Q
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【社招】四川省国有资产经营投资管理有限责任公司总部综合办公室副主任以及所属企业主要负责人岗位公开选聘公告
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: true
   scope_reason: 命中[金融/后勤]
@@ -40,9 +40,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/5XL_JIoget3RoSIlHQyF-Q
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】四川省建筑设计研究院有限公司（SADI）2027校园招聘开启
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -60,9 +60,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/BL3ZZDnkANJT7ELCm60Qzw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】中铁二十三局2027届校园招聘正式启动
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -80,9 +80,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/bxBwR3eeESP_32JrOiNnaw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】蜀道集团2027届校园招聘已开启
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -100,9 +100,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/CdJcxpwd7FR225ekQ500Zw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】川煤集团2027届高校毕业生招聘开启
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -120,9 +120,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/7kZxF83joB9m8bUE-RFQYw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】四川邮政2027校园招聘火热开启
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -140,9 +140,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/yUuwS6B2B12L2q_ysplcQA
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【社招+校招】2026年9月成都市属国企招聘启动
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -160,9 +160,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/yeQCn9VYyrAZJMNCLup5GA
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】东方电气集团东方锅炉股份有限公司2027年校园招聘
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -180,9 +180,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/xHcd1CaBztGEujtAdv2a4Q
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【社招】乐山市商业银行2026年社会招聘
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 非大成都
@@ -201,9 +201,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/360dfk0kTax09bk0Ay86xw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】四川石化公司2026年秋季高校毕业生招聘公告
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -221,9 +221,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/ULx9X--XtOkQLev0Ax0StA
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】中国电建四川院2027年校园招聘正式开启
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -241,9 +241,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/g2b9GJ5scTntRUHmmD8DhQ
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】水电七局2027年校园招聘公告
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -261,9 +261,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/3UNr1GWM5JJkC8s22V-cKg
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招+社招】中国科学院光电技术研究所、水电五局、锦江发展集团下属成都锦发边缘智能科技有限公司正在招聘中
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -281,9 +281,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/NlsWUZJbgv6gCyDyRZPRvA
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】国家能源集团大渡河公司2027校园招聘指南
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -301,9 +301,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/_hTGu3LuvrfhxIMRTWT5Dw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】中国航发四川燃气涡轮研究院正在招聘
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -321,9 +321,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/o2Fax6Z3sEv_TaZMGu3T5w
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】成都飞机工业（集团）有限责任公司正在招聘
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -341,9 +341,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/Wn6uiHNfdWmuktj_rHxprw
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】国机重装2027届秋季校园招聘
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -361,9 +361,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/OCGRza8F7OdOFmmy5gtj6A
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】四川商投集团2026年秋季校园招聘公告
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -381,9 +381,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/bQggPY9TYCJuVlJ_4ZXVug
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】电建水电开发公司2027届校园招聘
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
@@ -401,9 +401,9 @@ postings:
   evidence:
   - kind: official_page
     url: https://mp.weixin.qq.com/s/d2yyAPo612zM1g-FonUBmQ
-    at: '2026-10-28'
+    at: '2026-10-29'
     excerpt: 【校招】四川电建2027届校园招聘正式启动
-  last_verified: '2026-10-28'
+  last_verified: '2026-10-29'
   entity: soe
   in_scope: false
   scope_reason: 国企未命中金融/后勤
